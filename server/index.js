@@ -26,8 +26,7 @@ app.use(
 		origin: "*",
 		credentials: true,
 	})
-);
-	
+);	
 
 app.use(
 	fileUpload({
